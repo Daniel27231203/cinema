@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+#home {
+  padding: 40px 0;
+  background: url("https://www.afbostader.se/globalassets/bo-hos-oss/bo.nus/kn.jpg")
+    center/cover;
+  height: 70vh;
+  opacity: 0.8;
+}
+.home {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home img {
+  width: 650px;
+  border-radius: 15px;
+}
+
+.home-description {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.home-description h2 {
+  color: aqua;
+  font-size: 40px;
+  font-family: "Playfair Display";
+}
+.home-description p {
+  font-size: 20px;
+  color: white;
+  font-family: "Playfair Display";
+}
+
+.home-description button {
+  width: 180px;
+  text-align: center;
+  padding: 18px 45px;
+  border: none;
+  cursor: pointer;
+  background: rgb(196, 193, 240);
+  background: linear-gradient(
+    90deg,
+    rgba(196, 193, 240, 1) 45%,
+    rgba(0, 20, 255, 1) 100%
+  );
+  color: red;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+/* slider */
+#slider {
+  padding: 40px 0;
+  background: rgb(193, 240, 194);
+  background: linear-gradient(
+    90deg,
+    rgba(193, 240, 194, 1) 23%,
+    rgba(196, 193, 240, 1) 45%,
+    rgba(248, 89, 220, 1) 75%,
+    rgba(0, 20, 255, 1) 100%
+  );
+}
+.slider h2 {
+  color: hotpink;
+}
+.btn-slider {
+  display: flex;
+  gap: 40px;
+  margin: 20px 0;
+}
+.btn-slider button {
+  padding: 10px 20px;
+  border: 2px solid purple;
+  background: transparent;
+  color: purple;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.btn-slider button:hover {
+  background: gold;
+}
+.btn-slider button:focus {
+  background: violet;
+}
+/* .btn-slider button:focus */
+/* slider */

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+#topRated {
+  padding: 40px 0;
+  background: rgb(193, 240, 194);
+  background: linear-gradient(
+    90deg,
+    rgba(193, 240, 194, 1) 21%,
+    rgba(196, 193, 240, 1) 37%,
+    rgba(205, 189, 202, 1) 69%,
+    rgba(248, 89, 220, 1) 82%,
+    rgba(196, 209, 198, 1) 94%
+  );
+}
+.topRated h1 {
+  color: red;
+  font-family: "Playfair Display";
+  margin: 0 0 20px 0;
+  text-decoration: underline;
+}
+.topRatedBox {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.topRatedBox h2 {
+  width: 250px;
+  height: 50px;
+  font-family: "Bebas Neue";
+}
+.topRatedBox div:hover {
+  box-shadow: 0px 4px 35px 5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 4px 35px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 35px 5px rgba(0, 0, 0, 0.75);
+}
+.topRated_btn {
+  margin: 40px 0;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  overflow-x: scroll;
+}
+.topRated_btn button {
+  padding: 10px;
+  border: 2px solid purple;
+  color: purple;
+  background: transparent;
+  cursor: pointer;
+}
+.topRated_btn button:hover {
+  background: purple;
+  color: white;
+}
+.topRated_btn button:focus {
+  background: purple;
+  color: white;
+}
+
+.topRated_btn::-webkit-scrollbar {
+  display: none;
+}
